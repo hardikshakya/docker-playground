@@ -1,0 +1,16 @@
+{
+  "name": "visists",
+  "version": "1.0.0",
+  "description": "- Shows the total number of times the server visited by users. - Use:   - Node + Redis - Commands:",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "*",
+    "redis": "3.0.2"
+  }
+}
