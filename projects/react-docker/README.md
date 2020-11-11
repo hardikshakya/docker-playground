@@ -2,7 +2,7 @@
 
 ## Docker commands
 
-- Build development Dockerfile:
+- Build `development` Dockerfile:
 
   ```bash
   docker build -f Dockerfile.dev .
@@ -27,6 +27,14 @@
     ```bash
     docker-compose up
     ```
+
+- Run Multi-Step Docker build for production using Nginx:
+
+  ```bash
+  docker build .
+
+  docker run -p 8080:80 <id>
+  ```
 
 ## Available Scripts
 
